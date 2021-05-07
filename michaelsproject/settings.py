@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'myauto',
         'USER': 'mpedzi03',
-        'PASSWORD': '3218',
+        'PASSWORD': 'Rsx2004ss',
         'HOST': '',
         'PORT': '',
         'OPTIONS': {
