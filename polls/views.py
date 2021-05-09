@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-  return HttpResponse('Hello World. You are at the polls now.')
+  my_dict = {'insert_me': 'Hello, I am from views.py!'}
+  return render(request, 'polls/index.html', context=my_dict)
 
 # Create your views here.
